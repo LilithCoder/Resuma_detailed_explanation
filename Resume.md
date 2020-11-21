@@ -1,12 +1,21 @@
 - [SwiftUI iOS 纸牌游戏](#SwiftUIiOS纸牌游戏)
-
+- [天气预报iOSApp](#天气预报iOSApp)
+- [CrownClothing网站](#CrownClothing网站)
+- [YelpCamp网站](#YelpCamp网站)
 - [数据挖掘Yelp大规模数据集](#数据挖掘Yelp大规模数据集)
-
 - [Unix操作系统内核](#Unix操作系统内核)
-
+- [天气预报网站](#天气预报网站)
 - [Socket_Programming](#Socket_Programming)
 
 ## SwiftUIiOS纸牌游戏
+- [天气预报iOSApp](#天气预报iOSApp)
+```
+SwiftUI iOS 纸牌游戏 (https://github.com/weilingao/Memorize_CardGame_CS193p) 2020 年 11 月 – 至今
+• 基于 SwiftUI 开发一个翻转纸牌并匹配具有相同 emoji 的纸牌的 iOS 游戏
+• 设计架构是 MVVM，并结合了 Reactive UI 使 View 始终与 Model 保持同步使得纸牌翻转
+• 利用 GeometryReader 自动分配纸牌大小，比例和位置，利用 ViewModifier 和 ViewBuilder 重构 View，添加了一些 animation
+```
+
 1. 使用SwiftUI的声明性方法(declarative approach)来构成用户界面。
 2. - 建立了MVVM基础框架
    - View提供declarative的views
@@ -16,9 +25,45 @@
    - 根据上面的理论实现了reactive programming, 一旦点击卡牌，卡牌会有翻转效果
    - 通过ViewModel更新模型以及使UI始终与模型保持同步来使卡翻转。
 
-
+## 天气预报iOSApp
+- [CrownClothing网站](#CrownClothing网站)
+```
+天气预报 iOS App (https://www.bilibili.com/video/BV1kr4y1F79r) 2019 年 09 月 – 2019 年 12 月
+iOS App, Swift, Xcode, Cocoapods, Node.js, Express.js
+• 开发基于 MVC 设计架构的天气预报 iOS App，使用户可以搜索当地和特定城市的天气信息
+• 设计自定义滑动视图(XIB)，并动态生成水平滑动页面以显示天气信息
+• 用户可以将自己喜欢的城市添加到本地存储中(UserDefaults)，方便之后再检索这些城市的天气信息
+• 利用 Cocoapods 管理第三方依赖并实现加载 loading spinner 和 toast message
+```
+## CrownClothing网站
+- [YelpCamp网站](#YelpCamp网站)
+```
+Crown Clothing 网站 (https://crwn-clothing-weilingao.herokuapp.com/) 2019 年 07 月 – 2019 年 08 月
+React, React-Router, SASS, Firebase, JavaScript
+• 利用 React 框架设计购物网站，使用 React-Router 实现用户可以在不同类别的商品之间导航
+• 用户可以将商品添加到购物车中或从列表中删除商品，通过 Stripe API 实现付款
+• 结合 Firebase 来处理数据存储和用户身份验证，以便用户可以使用 Google 帐户或邮箱账号登录
+```
+## YelpCamp网站
+- [数据挖掘Yelp大规模数据集](#数据挖掘Yelp大规模数据集)
+```
+Yelp Camp 网站 (https://yelpcamp-weilingao-usc.herokuapp.com/) 2019 年 05 月 – 2019 年 07 月 HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, MongoDB, Mongoose
+• 利用 Node.js, Express.js 设计一个以营地为主题、Restful Routing、类似 Yelp 风格的博客网站
+• 用户可以添加和编辑自己的营地，打分和评论，支持用户身份验证和授权，密码找回(Passport.js)，模糊搜索和分页等功能
+• 使用 MongoDB 构建 nosql 数据库以存储 campground/user/comment/review 模型的数据
+```
 
 ## 数据挖掘Yelp大规模数据集
+- [Unix操作系统内核](#Unix操作系统内核)
+```
+数据挖掘 Yelp 大规模数据集 2020 年 05 月 – 2020 年 07 月 Apache Spark, PySpark, MapReduce, Recommendation System, Collaborative Filtering, Python, Scala, Apache RDD
+• 使用 Spark 以 MapReduce 方式实现 SON 算法，并使用 PCY 算法处理每个 Yelp 数据块(Market-Basket 模型);查找所有商家的频繁 项集(frequent itemsets) 并生成关联规则(associative rules)，然后根据其关联规则推荐适合的商家
+• 根据 Jaccard 相似度(Jaccard similarity)实现 Min-Hash 和 Locality Sensitive Hashing 算法以查找相似的商家对(business pairs)
+• 通过使用 TF-IDF 算法，根据评论文本为用户和商家创建 profiles 来建立基于内容的推荐系统(content-based recommendation
+system)，然后计算 user profile vectors 和 item profile vectors 的余弦相似度(cosine similarity)来预测用户是否喜爱某特定的商家
+• 通过计算 Pearson correlation 并结合 Min-Hash 和 LSH 算法，构建基于项目/用户的协作过滤推荐系统(item-based/user-based
+collaborative filtering recommendation systems)，然后使用模型预测某特定用户对某特定商家的评分
+```
 1. - 第一个内容是根据一个大规模的yelp数据集，用户和商家映射对，来为之前评论过一些商家的用户来推荐一些他可能感兴趣的其他商家，具体实现是用apache spark在分布式的环境下，实现son算法，来更高效地找到所有可能的频繁项集的组合。这里的频繁项集就是指我们将要计算出现的次数频率高的商家组合，其中包括了单个商家的组合，两个商家的组合，甚至三个商家的组合，这些商家组合的出现频率会超过预设定的某一阀值。在这里我们需要建立market-basket模型，这里的话就是为某一个用户建立一个篮子，篮子里包含了每个被某一用户评论过的商家。然后再通过频繁项集来生成关联规则来为用户推荐适合的商家
    - son算法的具体实现：我们把每个商家组合都看成是一个篮子，整个数据集就是通过一个个篮子组成的，然后将整个数据集分割成一个个数据子集，每个子集有一些篮子，然后我们将这些子集分布式地/map-reduce地读入到内存中，跑一个基于内存的算法。son算法分为两个阶段：
         1. 第一个阶段，在map的过程中，如果在一个子集里一个篮子被发现是出现频率高的，那么这个篮子将成为一个候选者，输出一系列的(frequent_itemset, 1)键值对/key-value pair，这里计算频率高的篮子会用一个算法叫pcy，
@@ -42,6 +87,14 @@
     ![](2.png)
 
 ## Unix操作系统内核
+- [天气预报网站](#天气预报网站)
+```
+• 在 Ubuntu 16.04 虚拟机上完成来自 Brown University 的类 Unix 操作系统内核 WEENIX
+• 创建在内核模式下并发运行的线程和进程的生命周期，包括互斥锁，调度程序等
+• 创建虚拟文件系统，在 OS 内核和基础文件系统(S5FS)之间编写 UNIX 的系统调用接口
+• 创建一个虚拟内存，使内核可以管理用户地址空间(user address spaces)，实现虚拟内存映射(virtual memory maps)，实现系统调用
+fork()，实现页错误处理(page fault handler)，使用 shadow memory objects 来实现写时复制(copy-on-write)
+```
 - kernel1
     1. 提供Weenix操作系统的基本构建块：线程，进程和同步原语。
     
@@ -75,7 +128,7 @@
     
     4. 每个进程都有一个与之关联的文件描述符表，每个进程的数组由该进程打开的文件描述符索引。如果未使用文件描述符，则该条目的指针为NULL。否则，它必须指向有效文件t。每个文件t都包含一个指向活动vnode t的指针。通过vnode t函数指针，您可以与基础文件系统进行通信，以管理vnode表示的文件。所有这些指针都摆在身边，很难分辨何时可以清理分配的vnode ts和file ts。这是引用计数的来源。
     
-    5. 参考计数/Reference Counting：
+    5. 引用计数/Reference Counting：
 
         正如VFS概述中所讨论的，有许多指向vnode ts和file ts的指针，但是我们需要确保一旦所有指向结构的指针都消失了，该结构就被清理了，否则我们将泄漏资源！下面描述的* get（）函数不是直接为这些结构分配空间，而是在系统表中查找结构，并在尚不存在适当的条目的情况下创建新条目。同样，Weenix并没有直接清除这些结构，而是使用* put（）函数来减少引用计数并在必要时执行清除。 Weenix中的其他系统将这些函数与* ref（）函数一起使用以正确管理引用计数。
 
@@ -126,8 +179,23 @@
         •使用vmmap clone（）将vmmap t从父进程复制到子进程（如果尚未写入，则应编写）。切记要增加对基础内存对象的引用计数。
         •对于原始进程中的每个私有映射，将新进程和旧进程的虚拟内存区域指向两个新的影子对象，而影子对象又应指向原始的基础内存对象。这是您知道与该映射相对应的页面是写时复制的方式。
         .在写入时复制，我们希望访问这些页面以导致陷阱，我们的页面错误处理程序，以便它可以弄脏页面，这将调用写时复制操作。
+## 天气预报网站
+- [Socket_Programming](#Socket_Programming)
+```
+天气预报网站 (http://weilingao-csci571-hw8-adeuba5aaa.us-east-2.elasticbeanstalk.com/) 2019 年 09 月 – 2019 年 12 月 Angular 8, Node.js, AJAX, JSON, HTML5, Bootstrap 4
+• 使用 Angular 8 作为前端框架(component/service 模型)，使用 Node.js 和 Express.js 作为后端开发了网页版的天气预报
+• 构建 service 以在所有 components 之间共享数据并使用 AJAX 处理与后端 API 的异步数据交换
+• 支持输入自动补全机制(Angular Material)，收藏夹系统(HTML5 本地存储)，利用条形图显示未来几天的天气情况
+```
 
 ## Socket_Programming
+```
+Socket 网络编程
+C, TCP/UDP, Socket, Ubuntu
+• 在 Ubuntu 中开发 UNIX Socket 网络编程，实现模型计算分流
+• 建立 TCP 流服务器和 UDP 数据报服务器，读取服务器上的数据库文件并传输信息
+• 使用 Shannon-Hartley 定理计算可通过 channel 传输信息的最大速率
+```
 1. 两种类型的Internet套接字:
 
     套接字是一种使用标准Unix文件描述符与其他程序对话的方式。
