@@ -318,15 +318,15 @@ while True:
 
 ## 面经
 [输入url的过程](#输入url的过程)\
-[TCP三次握手、四次挥手:](#TCP三次握手、四次挥手:)\
-[TCP、UDP的区别，UDP的主要用途:](#TCP、UDP的区别，UDP的主要用途:)\
-[HTTP建立连接:](#HTTP建立连接:)\
-[http和https的区别:](#http和https的区别:)\
-[进程、线程区别:](#进程、线程区别:)\
-[进程间的通信方式:](#进程间的通信方式:)\
-[虚拟内存:](#虚拟内存:)\
-[堆和栈的区别:](#堆和栈的区别:)\
-[编译里的一些步骤:](#编译里的一些步骤:)\
+[TCP三次握手、四次挥手:](#TCP三次握手、四次挥)\
+[TCP、UDP的区别，UDP的主要用途:](#TCP、UDP的区别，UDP的主要用途)\
+[HTTP建立连接:](#HTTP建立连接)\
+[http和https的区别:](#http和https的区别)\
+[进程、线程区别:](#进程、线程区别)\
+[进程间的通信方式:](#进程间的通信方式)\
+[虚拟内存:](#虚拟内存)\
+[堆和栈的区别:](#堆和栈的区别)\
+[编译里的一些步骤:](#编译里的一些步骤)\
 [一个C++文件（源码）是如何变成一个可执行文件的？](#一个C++文件（源码）是如何变成一个可执行文件的？)\
 [链接的过程都干了什么？](#链接的过程都干了什么？)\
 [破坏死锁](#破坏死锁)\
@@ -337,62 +337,62 @@ while True:
 [解释一下满二叉树和完全二叉树](#解释一下满二叉树和完全二叉树)\
 [B树/red-black](#B树/red-black)\
 [事务的概念](#事务的概念)\
-[ACID:](#ACID:)\
-[事务隔离级别:](#事务隔离级别:)\
-[换入换出算法:](#换入换出算法:)\
-[LRU如何实现:](#LRU如何实现:)\
-[双栈实现min操作:](#双栈实现min操作:)\
-[c/c++内存泄漏:](#c/c++内存泄漏:)\
+[ACID:](#ACID)\
+[事务隔离级别:](#事务隔离级别)\
+[换入换出算法:](#换入换出算法)\
+[LRU如何实现:](#LRU如何实现)\
+[双栈实现min操作:](#双栈实现min操作)\
+[c/c++内存泄漏:](#c/c++内存泄漏)\
 [数据库左连接右连接](#数据库左连接右连接)\
-[请你介绍一下智能指针:](#请你介绍一下智能指针:)\
-[虚函数:](#虚函数:)\
-[析构函数可以是虚函数吗:](#析构函数可以是虚函数吗:)\
-[指针和引用的区别:](#指针和引用的区别:)\
-[C++多态:](#C++多态:)\
-[const哪些地方会用到:](#const哪些地方会用到:)\
-[断点续传下载:](#断点续传下载:)\
-[中间人攻击:](#中间人攻击:)\
-[链表，删除倒数第N个节点:](#链表，删除倒数第N个节点:)\
+[请你介绍一下智能指针:](#请你介绍一下智能指针)\
+[虚函数:](#虚函数)\
+[析构函数可以是虚函数吗:](#析构函数可以是虚函数吗)\
+[指针和引用的区别:](#指针和引用的区别)\
+[C++多态:](#C++多态)\
+[const哪些地方会用到:](#const哪些地方会用到)\
+[断点续传下载:](#断点续传下载)\
+[中间人攻击:](#中间人攻击)\
+[链表，删除倒数第N个节点:](#链表，删除倒数第N个节点)\
 [对MVC的理解](#对MVC的理解)\
 [说说你对MVC和MVVM的理解](#说说你对MVC和MVVM的理解)\
 [多线程同步互斥方法](#多线程同步互斥方法)\
 [HTTP长连接短连接](#HTTP长连接短连接)\
 [设计模式知道哪些](#设计模式知道哪些)\
 [weak关键字怎么用](#weak关键字怎么用)\
-[内存为什么要分页:](#内存为什么要分页:)\
+[内存为什么要分页:](#内存为什么要分页:)
 
 
-### 输入url的过程:
+### 输入url的过程
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
-### TCP三次握手、四次挥手:
+### TCP三次握手、四次挥手
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
-### TCP、UDP的区别，UDP的主要用途:
+### TCP、UDP的区别，UDP的主要用途
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#udp-%E5%92%8C-tcp-%E7%9A%84%E7%89%B9%E7%82%B9)
-### HTTP建立连接:
+### HTTP建立连接
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
 
-### http和https的区别:
+### http和https的区别
 
 [link](https://zhuanlan.zhihu.com/p/43789231)
-### 进程、线程区别:
+### 进程、线程区别
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
-### 进程间的通信方式:
+### 进程间的通信方式
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1)
 
-### 虚拟内存:
+### 虚拟内存
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98)
 
-### 堆和栈的区别:
+### 堆和栈的区别
 
 [link](https://blog.csdn.net/K346K346/article/details/80849966)
 
-### 编译里的一些步骤:
+### 编译里的一些步骤
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E9%93%BE%E6%8E%A5.html#%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F)
 
@@ -437,27 +437,27 @@ while True:
     
 [link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E4%B8%80%E3%80%81%E4%BA%8B%E5%8A%A1)
 
-### ACID:
+### ACID
 
 [link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#acid)
 
-### 事务隔离级别:
+### 事务隔离级别
 
 [link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E5%9B%9B%E3%80%81%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB)
 
-### 换入换出算法:
+### 换入换出算法
 
 [link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95)
 
-### LRU如何实现:
+### LRU如何实现
 
 [link](https://github.com/weilingao/coding_interview_ft/blob/fa13ffa809ded4cc8ada7bf81b36f68a378fff64/interview_code/LRULFU.md)
 
-### 双栈实现min操作:
+### 双栈实现min操作
 
 [link](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/)
 
-### c/c++内存泄漏:
+### c/c++内存泄漏
 
 [link](https://www.jianshu.com/p/5770c067a552)
 
@@ -465,42 +465,42 @@ while True:
     
 [link](https://blog.csdn.net/weixin_39220472/article/details/81193617)
 
-### 请你介绍一下智能指针:
+### 请你介绍一下智能指针
 
 自动释放申请内存的指针。主要是为了解决指针申请内存忘记释放的问题
 
-### 虚函数:
+### 虚函数
     
 [link](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%87%BD%E6%95%B0)
 
-### 析构函数可以是虚函数吗:
+### 析构函数可以是虚函数吗
 
 [link](https://www.jianshu.com/p/c7754b0ac88b)
 
-### 指针和引用的区别:
+### 指针和引用的区别
 
 [link](https://blog.csdn.net/tianxiaolu1175/article/details/46889523)
 
-### C++多态:
+### C++多态
 
 [link](https://www.runoob.com/cplusplus/cpp-polymorphism.html)
 
-### const哪些地方会用到:
+### const哪些地方会用到
 
 [link](https://blog.csdn.net/Eric_Jo/article/details/4138548)
 
-### 断点续传下载:
+### 断点续传下载
 
    要实现断点续传的功能，通常需要客户端记录当前下载的下载进度，并在需要续传的时候通知服务端本次需要下载的内容片断。
         在HTTP1.1协议(RFC2616)中定义了断点续传相关的HTTP头的Range和Content-Range 字段。一个简单的断点续传实现大概如下：
         1、客户端下载一个1024K的文件，已经下载了其中512K
         2.网络中断，客户端请求续传，因此需要在HTTP头中申明需要续传的片段:Range:bytes=512000-这个头通知服务端从文件的512K位置开始传输文件。
         3.服务端收到断点续传请求，从文件512K位置开始传输，并且在HTTP头中增加:Content-Range:bytes 512000-1024000 并且此时服务端返回的HTTP状态码应该是206而不是200.
-### 中间人攻击:
+### 中间人攻击
     
 [link](https://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB)
 
-### 链表，删除倒数第N个节点:
+### 链表，删除倒数第N个节点
 
 [link](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/)
 
@@ -528,6 +528,6 @@ while True:
 
 [link](https://juejin.cn/entry/6844903487097012237)
 
-### 内存为什么要分页:
+### 内存为什么要分页
 
 [link](https://www.jianshu.com/p/68433e97f864)
