@@ -1,11 +1,16 @@
 - [SwiftUI iOS 纸牌游戏](#SwiftUIiOS纸牌游戏)
 - [天气预报iOSApp](#天气预报iOSApp)
-- [CrownClothing网站](#CrownClothing网站)
-- [YelpCamp网站](#YelpCamp网站)
 - [数据挖掘Yelp大规模数据集](#数据挖掘Yelp大规模数据集)
 - [Unix操作系统内核](#Unix操作系统内核)
 - [天气预报网站](#天气预报网站)
+- [CrownClothing网站](#CrownClothing网站)
+- [YelpCamp网站](#YelpCamp网站)
 - [Socket_Programming](#Socket_Programming)
+
+```
+我是一名南加州大学在读计算机科学研究生，预计2020年底毕业，平时热衷于技术的学习
+目前最倾向iOS开发，原因是之前上过Stanford的一个ios公开课，很崇拜这门课的教授，他的代码十分的简洁优雅。我很喜欢
+```
 
 ## SwiftUIiOS纸牌游戏
 - [天气预报iOSApp](#天气预报iOSApp)
@@ -26,7 +31,7 @@ SwiftUI iOS 纸牌游戏 (https://github.com/weilingao/Memorize_CardGame_CS193p)
    - 通过ViewModel更新模型以及使UI始终与模型保持同步来使卡翻转。
 
 ## 天气预报iOSApp
-- [CrownClothing网站](#CrownClothing网站)
+- [数据挖掘Yelp大规模数据集](#数据挖掘Yelp大规模数据集)
 ```
 天气预报 iOS App (https://www.bilibili.com/video/BV1kr4y1F79r) 2019 年 09 月 – 2019 年 12 月
 iOS App, Swift, Xcode, Cocoapods, Node.js, Express.js
@@ -34,23 +39,6 @@ iOS App, Swift, Xcode, Cocoapods, Node.js, Express.js
 • 设计自定义滑动视图(XIB)，并动态生成水平滑动页面以显示天气信息
 • 用户可以将自己喜欢的城市添加到本地存储中(UserDefaults)，方便之后再检索这些城市的天气信息
 • 利用 Cocoapods 管理第三方依赖并实现加载 loading spinner 和 toast message
-```
-## CrownClothing网站
-- [YelpCamp网站](#YelpCamp网站)
-```
-Crown Clothing 网站 (https://crwn-clothing-weilingao.herokuapp.com/) 2019 年 07 月 – 2019 年 08 月
-React, React-Router, SASS, Firebase, JavaScript
-• 利用 React 框架设计购物网站，使用 React-Router 实现用户可以在不同类别的商品之间导航
-• 用户可以将商品添加到购物车中或从列表中删除商品，通过 Stripe API 实现付款
-• 结合 Firebase 来处理数据存储和用户身份验证，以便用户可以使用 Google 帐户或邮箱账号登录
-```
-## YelpCamp网站
-- [数据挖掘Yelp大规模数据集](#数据挖掘Yelp大规模数据集)
-```
-Yelp Camp 网站 (https://yelpcamp-weilingao-usc.herokuapp.com/) 2019 年 05 月 – 2019 年 07 月 HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, MongoDB, Mongoose
-• 利用 Node.js, Express.js 设计一个以营地为主题、Restful Routing、类似 Yelp 风格的博客网站
-• 用户可以添加和编辑自己的营地，打分和评论，支持用户身份验证和授权，密码找回(Passport.js)，模糊搜索和分页等功能
-• 使用 MongoDB 构建 nosql 数据库以存储 campground/user/comment/review 模型的数据
 ```
 
 ## 数据挖掘Yelp大规模数据集
@@ -180,12 +168,29 @@ fork()，实现页错误处理(page fault handler)，使用 shadow memory object
         •对于原始进程中的每个私有映射，将新进程和旧进程的虚拟内存区域指向两个新的影子对象，而影子对象又应指向原始的基础内存对象。这是您知道与该映射相对应的页面是写时复制的方式。
         .在写入时复制，我们希望访问这些页面以导致陷阱，我们的页面错误处理程序，以便它可以弄脏页面，这将调用写时复制操作。
 ## 天气预报网站
-- [Socket_Programming](#Socket_Programming)
+- [YelpCamp网站](#YelpCamp网站)
 ```
 天气预报网站 (http://weilingao-csci571-hw8-adeuba5aaa.us-east-2.elasticbeanstalk.com/) 2019 年 09 月 – 2019 年 12 月 Angular 8, Node.js, AJAX, JSON, HTML5, Bootstrap 4
 • 使用 Angular 8 作为前端框架(component/service 模型)，使用 Node.js 和 Express.js 作为后端开发了网页版的天气预报
 • 构建 service 以在所有 components 之间共享数据并使用 AJAX 处理与后端 API 的异步数据交换
 • 支持输入自动补全机制(Angular Material)，收藏夹系统(HTML5 本地存储)，利用条形图显示未来几天的天气情况
+```
+## CrownClothing网站
+- [YelpCamp网站](#YelpCamp网站)
+```
+Crown Clothing 网站 (https://crwn-clothing-weilingao.herokuapp.com/) 2019 年 07 月 – 2019 年 08 月
+React, React-Router, SASS, Firebase, JavaScript
+• 利用 React 框架设计购物网站，使用 React-Router 实现用户可以在不同类别的商品之间导航
+• 用户可以将商品添加到购物车中或从列表中删除商品，通过 Stripe API 实现付款
+• 结合 Firebase 来处理数据存储和用户身份验证，以便用户可以使用 Google 帐户或邮箱账号登录
+```
+## YelpCamp网站
+- [Socket_Programming](#Socket_Programming)
+```
+Yelp Camp 网站 (https://yelpcamp-weilingao-usc.herokuapp.com/) 2019 年 05 月 – 2019 年 07 月 HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, MongoDB, Mongoose
+• 利用 Node.js, Express.js 设计一个以营地为主题、Restful Routing、类似 Yelp 风格的博客网站
+• 用户可以添加和编辑自己的营地，打分和评论，支持用户身份验证和授权，密码找回(Passport.js)，模糊搜索和分页等功能
+• 使用 MongoDB 构建 nosql 数据库以存储 campground/user/comment/review 模型的数据
 ```
 
 ## Socket_Programming
