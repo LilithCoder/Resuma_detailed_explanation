@@ -6,7 +6,8 @@
 - [CrownClothing网站](#CrownClothing网站)
 - [YelpCamp网站](#YelpCamp网站)
 - [Socket_Programming](#Socket_Programming)
-- [面经](#面经)
+- [面经1](#面经1)
+- [面经2](#面经2)
 ```
 我是一名南加州大学在读计算机科学研究生，预计2020年底毕业，平时热衷于技术的学习
 目前最倾向iOS开发，原因是之前上过Stanford的一个ios公开课，很崇拜这门课的教授，他的代码十分的简洁优雅。我很喜欢
@@ -316,178 +317,78 @@ while True:
     connectionSocket.close()
 ```
 
-## 面经
-[输入url的过程](#输入url的过程)\
-[TCP三次握手、四次挥手:](#TCP三次握手、四次挥)\
-[TCP、UDP的区别，UDP的主要用途:](#TCP、UDP的区别，UDP的主要用途)\
-[HTTP建立连接:](#HTTP建立连接)\
-[http和https的区别:](#http和https的区别)\
-[进程、线程区别:](#进程、线程区别)\
-[进程间的通信方式:](#进程间的通信方式)\
-[虚拟内存:](#虚拟内存)\
-[堆和栈的区别:](#堆和栈的区别)\
-[编译里的一些步骤:](#编译里的一些步骤)\
-[一个C++文件（源码）是如何变成一个可执行文件的？](#一个C++文件（源码）是如何变成一个可执行文件的？)\
-[链接的过程都干了什么？](#链接的过程都干了什么？)\
-[破坏死锁](#破坏死锁)\
-[解释一下C里static](#解释一下C里static)\
-[解释一下数组链表的区别](#解释一下数组链表的区别)\
-[常见的排序算法](#常见的排序算法)\
-[排序算法稳定性](#排序算法稳定性)\
-[解释一下满二叉树和完全二叉树](#解释一下满二叉树和完全二叉树)\
-[B树/red-black](#B树/red-black)\
-[事务的概念](#事务的概念)\
-[ACID:](#ACID)\
-[事务隔离级别:](#事务隔离级别)\
-[换入换出算法:](#换入换出算法)\
-[LRU如何实现:](#LRU如何实现)\
-[双栈实现min操作:](#双栈实现min操作)\
-[c/c++内存泄漏:](#c/c++内存泄漏)\
-[数据库左连接右连接](#数据库左连接右连接)\
-[请你介绍一下智能指针:](#请你介绍一下智能指针)\
-[虚函数:](#虚函数)\
-[析构函数可以是虚函数吗:](#析构函数可以是虚函数吗)\
-[指针和引用的区别:](#指针和引用的区别)\
-[C++多态:](#C++多态)\
-[const哪些地方会用到:](#const哪些地方会用到)\
-[断点续传下载:](#断点续传下载)\
-[中间人攻击:](#中间人攻击)\
-[链表，删除倒数第N个节点:](#链表，删除倒数第N个节点)\
-[对MVC的理解](#对MVC的理解)\
-[说说你对MVC和MVVM的理解](#说说你对MVC和MVVM的理解)\
-[多线程同步互斥方法](#多线程同步互斥方法)\
-[HTTP长连接短连接](#HTTP长连接短连接)\
-[设计模式知道哪些](#设计模式知道哪些)\
-[weak关键字怎么用](#weak关键字怎么用)\
-[内存为什么要分页:](#内存为什么要分页)
+## 面经1
+[输入url的过程](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
 
+[TCP三次握手、四次挥手](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
 
-### 输入url的过程
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
-### TCP三次握手、四次挥手
+[TCP、UDP的区别，UDP的主要用途](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#udp-%E5%92%8C-tcp-%E7%9A%84%E7%89%B9%E7%82%B9)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
-### TCP、UDP的区别，UDP的主要用途
+[HTTP建立连接](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html#udp-%E5%92%8C-tcp-%E7%9A%84%E7%89%B9%E7%82%B9)
-### HTTP建立连接
+[http和https的区别](https://zhuanlan.zhihu.com/p/43789231)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
+[进程、线程区别](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
 
-### http和https的区别
+[进程间的通信方式](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1)
 
-[link](https://zhuanlan.zhihu.com/p/43789231)
-### 进程、线程区别
+[虚拟内存](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
-### 进程间的通信方式
+[堆和栈的区别](https://blog.csdn.net/K346K346/article/details/80849966)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1)
-
-### 虚拟内存
-
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98)
-
-### 堆和栈的区别
-
-[link](https://blog.csdn.net/K346K346/article/details/80849966)
-
-### 编译里的一些步骤
-
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E9%93%BE%E6%8E%A5.html#%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F)
+[编译里的一些步骤](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E9%93%BE%E6%8E%A5.html#%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F)
 
     汇编过程，就是把已经预编译的文件编译成汇编代码的过程，整个过程会包含语法，词法的分析，和一些优化操作。
 
-### 一个C++文件（源码）是如何变成一个可执行文件的？
-
-[link](https://blog.csdn.net/xholes/article/details/61678730)
+[一个C++文件（源码）是如何变成一个可执行文件的？](https://blog.csdn.net/xholes/article/details/61678730)
 
 ### 链接的过程都干了什么？
 
 链接过程是将单个编译后的文件链接成一个可执行程序。而链接则是将所有关联到的编译后单元文件和应用的到库文件，进行一次链接处理，之前编译过的文件 如果有用到其他文件里面定义到的函数，全局变量，在这个过程中都会进行解析。
 
-### 破坏死锁
+[破坏死锁](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%AD%BB%E9%94%81.html#%E6%AD%BB%E9%94%81%E9%A2%84%E9%98%B2)
 
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%AD%BB%E9%94%81.html#%E6%AD%BB%E9%94%81%E9%A2%84%E9%98%B2)
-
-### 解释一下C里static
-
-[link](https://www.runoob.com/w3cnote/cpp-static-usage.html)
-
-### 解释一下数组链表的区别
+[解释一下C里static](https://www.runoob.com/w3cnote/cpp-static-usage.html)
     
-[link](https://blog.csdn.net/qq_25806863/article/details/70607204#:~:text=1%E3%80%81%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8%E7%9A%84,%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E5%92%8C%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8%E3%80%82)
+[解释一下数组链表的区别](https://blog.csdn.net/qq_25806863/article/details/70607204#:~:text=1%E3%80%81%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8%E7%9A%84,%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E5%92%8C%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8%E3%80%82)
 
-### 常见的排序算法
+[常见的排序算法](https://github.com/weilingao/coding_interview_ft/blob/master/algorithm/sorting_algoritms.md)
 
-[link](https://github.com/weilingao/coding_interview_ft/blob/master/algorithm/sorting_algoritms.md)
+[排序算法稳定性](https://baike.baidu.com/item/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7)
 
-### 排序算法稳定性
-[link](https://baike.baidu.com/item/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7)
+[解释一下满二叉树和完全二叉树](https://www.jianshu.com/p/ac95b5a7de8bs)
 
-### 解释一下满二叉树和完全二叉树
+[B树/red-black](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL.html#b-tree-%E5%8E%9F%E7%90%86)
 
-[link](https://www.jianshu.com/p/ac95b5a7de8bs)
+[事务的概念](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E4%B8%80%E3%80%81%E4%BA%8B%E5%8A%A1)
 
-### B树/red-black
+[ACID](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#acid)
 
-[link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL.html#b-tree-%E5%8E%9F%E7%90%86)
+[事务隔离级别](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E5%9B%9B%E3%80%81%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB)
 
-### 事务的概念
+[换入换出算法](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95)
+
+[LRU如何实现](https://github.com/weilingao/coding_interview_ft/blob/fa13ffa809ded4cc8ada7bf81b36f68a378fff64/interview_code/LRULFU.md)
+
+[双栈实现min操作](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/)
+
+[c/c++内存泄漏](https://www.jianshu.com/p/5770c067a552)
     
-[link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E4%B8%80%E3%80%81%E4%BA%8B%E5%8A%A1)
-
-### ACID
-
-[link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#acid)
-
-### 事务隔离级别
-
-[link](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E5%9B%9B%E3%80%81%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB)
-
-### 换入换出算法
-
-[link](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95)
-
-### LRU如何实现
-
-[link](https://github.com/weilingao/coding_interview_ft/blob/fa13ffa809ded4cc8ada7bf81b36f68a378fff64/interview_code/LRULFU.md)
-
-### 双栈实现min操作
-
-[link](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/)
-
-### c/c++内存泄漏
-
-[link](https://www.jianshu.com/p/5770c067a552)
-
-### 数据库左连接右连接
-    
-[link](https://blog.csdn.net/weixin_39220472/article/details/81193617)
+[数据库左连接右连接](https://blog.csdn.net/weixin_39220472/article/details/81193617)
 
 ### 请你介绍一下智能指针
 
 自动释放申请内存的指针。主要是为了解决指针申请内存忘记释放的问题
-
-### 虚函数
     
-[link](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%87%BD%E6%95%B0)
+[虚函数](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%87%BD%E6%95%B0)
 
-### 析构函数可以是虚函数吗
+[析构函数可以是虚函数吗](https://www.jianshu.com/p/c7754b0ac88b)
 
-[link](https://www.jianshu.com/p/c7754b0ac88b)
+[指针和引用的区别](https://blog.csdn.net/tianxiaolu1175/article/details/46889523)
 
-### 指针和引用的区别
+[C++多态](https://www.runoob.com/cplusplus/cpp-polymorphism.html)
 
-[link](https://blog.csdn.net/tianxiaolu1175/article/details/46889523)
-
-### C++多态
-
-[link](https://www.runoob.com/cplusplus/cpp-polymorphism.html)
-
-### const哪些地方会用到
-
-[link](https://blog.csdn.net/Eric_Jo/article/details/4138548)
+[const哪些地方会用到](https://blog.csdn.net/Eric_Jo/article/details/4138548)
 
 ### 断点续传下载
 
@@ -496,38 +397,58 @@ while True:
         1、客户端下载一个1024K的文件，已经下载了其中512K
         2.网络中断，客户端请求续传，因此需要在HTTP头中申明需要续传的片段:Range:bytes=512000-这个头通知服务端从文件的512K位置开始传输文件。
         3.服务端收到断点续传请求，从文件512K位置开始传输，并且在HTTP头中增加:Content-Range:bytes 512000-1024000 并且此时服务端返回的HTTP状态码应该是206而不是200.
-### 中间人攻击
-    
-[link](https://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB)
 
-### 链表，删除倒数第N个节点
+[中间人攻击](https://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB)
 
-[link](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/)
+[链表，删除倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/)
 
-### 对MVC的理解
+[对MVC的理解](https://juejin.cn/post/6844903823845097485)
 
-[link](https://juejin.cn/post/6844903823845097485)
+[说说你对MVC和MVVM的理解](https://blog.csdn.net/michael8512/article/details/78014421)
 
-### 说说你对MVC和MVVM的理解
+[多线程同步互斥方法](https://blog.csdn.net/lu930124/article/details/51242382)
 
-[link](https://blog.csdn.net/michael8512/article/details/78014421)
+[HTTP长连接短连接](https://www.cnblogs.com/0201zcr/p/4694945.html)
 
-### 多线程同步互斥方法
+[设计模式知道哪些](https://blog.csdn.net/LiuHai2014csd/article/details/60468090)
 
-[link](https://blog.csdn.net/lu930124/article/details/51242382)
+[weak关键字怎么用](https://juejin.cn/entry/6844903487097012237)
 
-### HTTP长连接短连接
+[内存为什么要分页](https://www.jianshu.com/p/68433e97f864)
 
-[link](https://www.cnblogs.com/0201zcr/p/4694945.html)
+## 面经2
+[synchronized是用来干嘛的？](https://zhuanlan.zhihu.com/p/41473053#:~:text=synchronized%20%EF%BC%8C%E6%98%AFJava%E4%B8%AD%E7%94%A8,%E7%B1%BB%E6%88%96%E8%80%85%E5%AF%B9%E8%B1%A1%E5%8A%A0%E9%94%81%E3%80%82)
 
-### 设计模式知道哪些
+[Java synchronized实现原理深度剖析](http://c.biancheng.net/view/5890.html)
 
-[link](https://blog.csdn.net/LiuHai2014csd/article/details/60468090)
+[B树和B+树的区别](https://juejin.cn/post/6844903908985274381):拉到最底
 
-### weak关键字怎么用
+[volatile有什么作用？](http://www.51gjie.com/java/574.html)
 
-[link](https://juejin.cn/entry/6844903487097012237)
+[指令重排是什么意思？](https://blog.csdn.net/blueheart20/article/details/52117761)
 
-### 内存为什么要分页
+[volatile和synchronized的区别？](https://blog.csdn.net/suifeng3051/article/details/52611233)
 
-[link](https://www.jianshu.com/p/68433e97f864)
+[jvm的内存模型?](https://blog.csdn.net/zengxiantao1994/article/details/89303290)
+
+[jvm调优的方法](https://juejin.cn/post/6844903991713742855)
+
+[MySQL都有哪些索引？](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL.html#mysql-%E7%B4%A2%E5%BC%95)
+
+[事务隔离级别](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E5%9B%9B%E3%80%81%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB)
+
+[幻读和不可重复读的区别是什么？](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.html#%E4%B8%8D%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB)
+
+[MySQL怎么实现隔离的？](https://www.zhihu.com/question/263820564)
+
+[HTTP2.0的特性，与1.1的区别什么的](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/HTTP/HTTP.html#%E4%B8%83%E3%80%81http-2-0)
+
+[如何避免线程死锁？](https://www.jianshu.com/p/182c5cbe826f)
+
+[解释一下IO阻塞？](https://cloud.tencent.com/developer/article/1684951)
+
+[用过哪些集合？](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#collection)
+
+[ArrayList和LinkedList的区别？](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#collection)
+
+[HashMap的底层原理？ 在key相同的情况下怎么处理？](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#hashmap)
