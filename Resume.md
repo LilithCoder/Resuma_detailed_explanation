@@ -8,6 +8,7 @@
 - [Socket_Programming](#Socket_Programming)
 - [面经1](#面经1)
 - [面经2](#面经2)
+- [面经3](#面经3)
 ```
 我是一名南加州大学在读计算机科学研究生，预计2020年底毕业，平时热衷于技术的学习
 目前最倾向iOS开发，原因是之前上过Stanford的一个ios公开课，很崇拜这门课的教授，他的代码十分的简洁优雅。我很喜欢
@@ -452,3 +453,120 @@ while True:
 [ArrayList和LinkedList的区别？](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#collection)
 
 [HashMap的底层原理？ 在key相同的情况下怎么处理？](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#hashmap)
+
+## 面经3
+
+[五层网络里面对应的协议](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E6%A6%82%E8%BF%B0.html#_1-%E4%BA%94%E5%B1%82%E5%8D%8F%E8%AE%AE)
+
+[http有什么改进了解么？http2.0](mj1.md)
+
+[JVM内存](https://zhuanlan.zhihu.com/p/38348646)
+
+[JVM内存2](https://blog.csdn.net/zengxiantao1994/article/details/89303290)
+
+[GC说一下](https://crowhawk.github.io/2017/08/15/jvm_3/)
+
+[mvc MVP mvvm 区别](mj2.md)
+
+[string，string buffer，stringbuilder](mj3.md)
+
+[谈谈你对线程安全的理解](mj4.md)
+
+[对Java异常处理的理解](mj5.md)
+
+[空指针异常和数组越界异常](mj6.md)
+
+[断点续传怎么实现的](mj7.md)
+
+[线程切换进程切换](mj8.md)
+
+[虚拟内存 虚拟地址到物理地址](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html#%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98)
+
+[http1.0, 1.1, 2.0](mj9.md)
+
+[https](https://zhuanlan.zhihu.com/p/43789231)
+
+
+
+[一个元素添加进去堆调整的复杂度？](https://github.com/weilingao/coding_interview_ft/blob/master/algorithm/sorting_algoritms.md#%E5%A0%86%E6%8E%92%E5%BA%8F(Heap_Sort))
+
+[排序的复杂度？](https://blog.csdn.net/pange1991/article/details/85460755)
+
+
+
+[浏览器键入一个网址之后的整个过程](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82.html#web-%E9%A1%B5%E9%9D%A2%E8%AF%B7%E6%B1%82%E8%BF%87%E7%A8%8B)
+
+[排序的各种问题](https://github.com/weilingao/coding_interview_ft/blob/master/algorithm/sorting_algoritms.md)
+
+[进程与线程的区别](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
+
+[进程间通信](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86.html#%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1)
+
+[线程间通信](mj10.md)
+
+[缺页中断](mj11.md)
+
+[java语法final关键字](http://www.cyc2018.xyz/Java/Java%20%E5%9F%BA%E7%A1%80.html#%E5%9B%9B%E3%80%81%E5%85%B3%E9%94%AE%E5%AD%97)
+
+[抽象类与接口](http://www.cyc2018.xyz/Java/Java%20%E5%9F%BA%E7%A1%80.html#%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3)
+
+
+
+[HashMap实现](http://www.cyc2018.xyz/Java/Java%20%E5%AE%B9%E5%99%A8.html#hashmap)
+
+
+
+[tcp、udp相关，滑动窗口](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82.html)
+
+[Object中的方法，equal和hashcode的关系](http://www.cyc2018.xyz/Java/Java%20%E5%9F%BA%E7%A1%80.html#equals)
+
+
+
+[java中软引用、弱引用](mj12.md)
+
+[static修饰的代码块什么时候执行](mj13.md)
+
+[类加载过程](https://juejin.cn/post/6844903564804882445#heading-2)
+
+[用户态和内核态的区别](https://blog.csdn.net/youngyoungla/article/details/53106671)
+
+[MTU了解吗](mj14.md)
+
+[数据结构：通讯录程序](mj15.md)
+
+[C++语言的三大特性](mj16.md)
+
+[虚函数](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%87%BD%E6%95%B0)
+
+[指针和引用的区别](https://blog.csdn.net/tianxiaolu1175/article/details/46889523)
+
+
+
+[DoS](https://zh.wikipedia.org/wiki/%E9%98%BB%E6%96%B7%E6%9C%8D%E5%8B%99%E6%94%BB%E6%93%8A#.E9.98.B2.E7.81.AB.E5.A2.99)
+
+[dns劫持](https://www.dns.com/supports/1418.html)
+
+[http状态码](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/HTTP/HTTP.html#%E4%B8%89%E3%80%81http-%E7%8A%B6%E6%80%81%E7%A0%81)
+
+[41.缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/solution/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/)
+
+
+[第k大的数](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+
+[链表有环](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+
+[二叉树结点最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+[最长公共子串长度](https://leetcode-cn.com/problems/longest-common-subsequence/)
+
+[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
+[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+
+[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+
+[买卖股票的最佳时机](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)
