@@ -462,6 +462,8 @@ while True:
 
 [http有什么改进了解么？http2.0](mj1.md)
 
+[java线程池](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+
 [JVM内存](https://blog.csdn.net/zengxiantao1994/article/details/89303290)
 
 [GC说一下](http://www.cyc2018.xyz/Java/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.html#%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86)
