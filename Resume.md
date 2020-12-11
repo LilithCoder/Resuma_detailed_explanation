@@ -522,7 +522,7 @@ while True:
 
 
 
-[java中软引用、弱引用](mj12.md)
+[java中软引用、弱引用](http://www.cyc2018.xyz/Java/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.html#%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B)
 
 [static修饰的代码块什么时候执行](mj13.md)
 
