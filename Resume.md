@@ -460,11 +460,11 @@ while True:
 
 [http有什么改进了解么？http2.0](mj1.md)
 
-[JVM内存](https://zhuanlan.zhihu.com/p/38348646)
+[JVM内存](http://www.cyc2018.xyz/Java/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.html#%E4%B8%80%E3%80%81%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E5%9F%9F)
 
 [JVM内存2](https://blog.csdn.net/zengxiantao1994/article/details/89303290)
 
-[GC说一下](https://crowhawk.github.io/2017/08/15/jvm_3/)
+[GC说一下](http://www.cyc2018.xyz/Java/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.html#%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86)
 
 [mvc MVP mvvm 区别](mj2.md)
 
@@ -526,7 +526,7 @@ while True:
 
 [static修饰的代码块什么时候执行](mj13.md)
 
-[类加载过程](https://juejin.cn/post/6844903564804882445#heading-2)
+[类加载过程](http://www.cyc2018.xyz/Java/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.html#%E5%9B%9B%E3%80%81%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6)
 
 [用户态和内核态的区别](https://blog.csdn.net/youngyoungla/article/details/53106671)
 
