@@ -340,9 +340,15 @@ while True:
 
 [STL中vector，Map，Set的实现原理](https://blog.csdn.net/u012611878/article/details/79190838#:~:text=STL%E4%B8%ADmap%E7%9A%84%E5%AE%9E%E7%8E%B0,%E5%BA%A6%E4%B8%BAO(logN)%E3%80%82)
 
+[vector的扩容机制](bd76.md)
+
 [虚函数](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%87%BD%E6%95%B0)
 
 [虚函数](bd74.md)
+
+[虚函数的定义及用法](bd77.md)
+
+[构造函数和析构函数一般都定义为虚函数嘛](bd78.md)
 
 [析构函数可以是虚函数吗](https://www.jianshu.com/p/c7754b0ac88b)
 
@@ -451,6 +457,8 @@ while True:
 ### 计算机网络
 ---
 
+[MSL、TTL和RTT的区别](bd79.md)
+
 [HTTPS请求的过程](bd6.md)
 
 [HTTPS与HTTP有何区别？](bd19.md)
@@ -489,6 +497,8 @@ while True:
 
 [TCP头部字段以及序列号的作用](bd57.md)
 
+[TCP四次挥手中客户端的最后一次挥手为什么要等待两个MSL](bd80.md)
+
 [HTTP协议是什么？常见的操作？](bd27.md)
 
 [HTTP常见状态码？更细的有了解嘛？](bd18.md)
@@ -496,6 +506,8 @@ while True:
 [输入一个URL，发生的过程](bd42.md)
 
 [DNS 域名系统](bd43.md)
+
+[套接字（Socket）的具体用法？](bd81.md)
 
 [网页加载很慢有什么办法优化](bd60.md)
 
@@ -511,6 +523,8 @@ while True:
 
 ### 算法
 ---
+[两个玩家先后手掷硬币，先投出正面的获胜，问先手获胜概率](bd82.md)
+
 最大连续数组和
 
 两个栈实现一个队列
