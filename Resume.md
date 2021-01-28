@@ -457,6 +457,8 @@ while True:
 ### 计算机网络
 ---
 
+[网站劫持]()
+
 [MSL、TTL和RTT的区别](bd79.md)
 
 [HTTPS请求的过程](bd6.md)
@@ -468,6 +470,8 @@ while True:
 [详细说下加密算法](bd34.md)
 
 [为什么对称加密比较快](bd61.md)
+
+[如何避免劫持](bd83.md)
 
 [spdy](https://zh.wikipedia.org/wiki/SPDY)
 
@@ -525,6 +529,10 @@ while True:
 
 ### 算法
 ---
+[515. 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
+
+[二叉树的左视图](https://juejin.cn/post/6844903989180383245)
+
 [两个玩家先后手掷硬币，先投出正面的获胜，问先手获胜概率](bd82.md)
 
 最大连续数组和
