@@ -323,6 +323,12 @@ while True:
 
 ## 字节跳动面经
 
+[mvc MVP mvvm 区别](mj2.md)
+
+[对MVC的理解](https://juejin.cn/post/6844903823845097485)
+
+[说说你对MVC和MVVM的理解](https://blog.csdn.net/michael8512/article/details/78014421)
+
 ### c++/java基础：
 ---
 
@@ -372,7 +378,9 @@ while True:
 
 [怎么解决内存泄漏](bd49.md)**
 
-[说一下C++里的智能指针](bd2.md)**
+[说一下C++里的智能指针](bd2.md)
+
+[指针和引用的区别](https://blog.csdn.net/tianxiaolu1175/article/details/46889523)
 
 [发生循环引用怎么办]()**
 
@@ -457,7 +465,7 @@ while True:
 ### 计算机网络
 ---
 
-[网站劫持]()
+[网站劫持](bd83.md)
 
 [MSL、TTL和RTT的区别](bd79.md)
 
@@ -472,6 +480,8 @@ while True:
 [为什么对称加密比较快](bd61.md)
 
 [如何避免劫持](bd83.md)
+
+[dns劫持](https://www.dns.com/supports/1418.html)
 
 [spdy](https://zh.wikipedia.org/wiki/SPDY)
 
@@ -529,11 +539,40 @@ while True:
 
 ### 算法
 ---
+[快速排序](https://github.com/weilingao/coding_interview_ft/blob/master/algorithm/sorting_algoritms.md#%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8Fquick_sort)
+
+[B树/red-black](http://www.cyc2018.xyz/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL.html#b-tree-%E5%8E%9F%E7%90%86)
+
+[排序的复杂度？](https://blog.csdn.net/pange1991/article/details/85460755)
+
 [515. 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
 
 [二叉树的左视图](https://juejin.cn/post/6844903989180383245)
 
 [两个玩家先后手掷硬币，先投出正面的获胜，问先手获胜概率](bd82.md)
+
+[41.缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/solution/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/)
+
+
+[第k大的数](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+
+[链表有环](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+
+[二叉树结点最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+[最长公共子串长度](https://leetcode-cn.com/problems/longest-common-subsequence/)
+
+[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
+[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+
+[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+
+[买卖股票的最佳时机](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)
 
 最大连续数组和
 
