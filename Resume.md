@@ -348,8 +348,6 @@ while True:
 
 [虚函数](bd74.md)
 
-[虚函数的定义及用法](bd77.md)
-
 [构造函数和析构函数一般都定义为虚函数嘛](bd78.md)
 
 [析构函数可以是虚函数吗](https://www.jianshu.com/p/c7754b0ac88b)
