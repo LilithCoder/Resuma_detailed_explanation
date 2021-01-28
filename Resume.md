@@ -84,7 +84,8 @@ collaborative filtering recommendation systems)，然后使用模型预测某特
 • 创建在内核模式下并发运行的线程和进程的生命周期，包括互斥锁，调度程序等
 • 创建虚拟文件系统，在 OS 内核和基础文件系统(S5FS)之间编写 UNIX 的系统调用接口
 • 创建一个虚拟内存，使内核可以管理用户地址空间(user address spaces)，实现虚拟内存映射(virtual memory maps)，实现系统调用
-fork()，实现页错误处理(page fault handler)，使用 shadow memory objects 来实现写时复制(copy-on-write)
+fork()，实现页错误处理(page fault handler)，使用 shadow memory objects 来实现写时复制(copy-on-write), 创建一个虚拟内存，使内核可以管理用户地址空间，实现虚拟内存映射/页错误处理/写时复制
+
 ```
 - kernel1
     1. 提供Weenix操作系统的基本构建块：线程，进程和同步原语。
