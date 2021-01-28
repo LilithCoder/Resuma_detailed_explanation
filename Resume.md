@@ -469,6 +469,8 @@ while True:
 
 [为什么对称加密比较快](bd61.md)
 
+[spdy](https://zh.wikipedia.org/wiki/SPDY)
+
 [http1.0和http2.0的区别](bd35.md)
 
 [http1.0, 1.1, 2.0](mj9.md)
